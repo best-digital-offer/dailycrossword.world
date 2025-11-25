@@ -1,0 +1,38 @@
+@media print {
+  body {
+    background: #fff;
+  }
+  
+  .site-header,
+  .site-footer,
+  .nav-row,
+  .puzzle-controls,
+  .ad-placeholder,
+  .share-buttons,
+  .breadcrumb {
+    display: none !important;
+  }
+  
+  .puzzle-grid {
+    box-shadow: none;
+  }
+  
+  .puzzle-grid input {
+    border: 1px solid #333;
+    background: #fff !important;
+  }
+  
+  .clues {
+    page-break-inside: avoid;
+  }
+  
+  #solution {
+    display: none !important;
+  }
+  
+  .seo,
+  .faq {
+    page-break-before: always;
+    font-size: 12px;
+  }
+}

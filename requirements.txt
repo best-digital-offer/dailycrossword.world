@@ -1,0 +1,7 @@
+# Python dependencies for Daily Crossword Generator
+# No external dependencies required - uses only Python standard library
+
+# Optional: For enhanced features
+# requests>=2.31.0  # For API integrations (LLM clue generation)
+# pillow>=10.0.0    # For image generation/manipulation
+# reportlab>=4.0.0  # For PDF generation
